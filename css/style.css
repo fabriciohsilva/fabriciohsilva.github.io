@@ -55,3 +55,71 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+/*personalizados*/
+
+.nav-header{
+  background-color: #006994;
+}
+
+.page-footer{
+  background-color: #006994;/*#004A69;*/
+}  
+
+.page-footer li > a{
+  background-color: #006994;/*#004A69;*/
+  font-size: 200%;
+}  
+
+body{
+  background-color: #99d6ff;/*#C0FDFF; /*#5ABDE6;*/
+}
+
+.projeto{
+  background-color: #C0FDFF;/*#3399ff;*/  
+}
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.botaotopo {
+display:scroll;
+position:fixed;
+bottom:2px;
+right:2px;
+z-index: 5;
+
+}
+
+nav ul a, nav .brand-logo {
+    color: #ffffff;
+}
+
+.side-nav li > a{
+  color: #ffffff;
+}
+
+.card .card-content{
+  padding: 5px;
+}
+
+.card .card-image .card-title{
+  padding: 5px;
+}
+
+
+.teal-text.text-lighten-2{
+    color: #3385ff !important;
+}
+
+.parallax-container{
+  font-weight: bold !important;
+}
