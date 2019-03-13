@@ -1,0 +1,21 @@
+<section id="projects">
+  <h2>Projetos</h2>
+  
+  <h5>Todos | Front-end | Back-end | Mobile</h5>
+  
+</section>
+<mat-grid-list cols="3">        
+  <mat-grid-tile [colspan]="1" [rowspan]="1" *ngFor="let item of itens">
+    <mat-card class="card">
+      <img mat-card-image src="https://www.javatpoint.com/js/nodejs/images/node-js-tutorial.png" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+          <p>
+              Exercícios do curso Node.js para Iniciantes By #NodeBR!
+          </p>
+        </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>CÓD. FONTE</button>
+      </mat-card-actions>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>

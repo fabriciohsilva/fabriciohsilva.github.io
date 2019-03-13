@@ -1,0 +1,15 @@
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  
+  margin: 50px 0 0 0;
+}
+
+.borda {
+  border: 1px solid red;
+}
+
+.card {
+  max-width: 300px;
+}

@@ -1,0 +1,22 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.me{
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+}
+
+.pitch {
+  text-align: center;
+  width: 75%;
+}
+
+p {
+  margin: 0px;
+}
+

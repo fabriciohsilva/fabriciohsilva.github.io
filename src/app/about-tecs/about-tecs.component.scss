@@ -1,0 +1,40 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 95%;
+}
+
+.barra{
+  color: #666;
+  height: 22px;
+  position: relative;
+  background-color: #eee;
+  margin: 0 0 12px 0;
+  align-items: flex-end;
+  width: 100%;
+
+  .tag{
+    top: 0;
+    left: 0;
+    position: absolute;
+    // background-color: #04C2C9;
+    color: #fff;
+    height: 100%;
+    width: 70px;
+    padding-left: 10px;
+  }
+
+  .fill{
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #00A1A7;
+    padding: 0;
+    opacity: 1;
+    // transition: 1.1s 0.2s width ease-in-out;
+  }
+
+}
+

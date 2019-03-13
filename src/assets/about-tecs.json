@@ -1,0 +1,47 @@
+{
+  "cursos": [
+    {
+      "descricao": "IBM/Fatec Sorocaba – PL/SQL",
+      "plataforma": "Fatec/IBM",
+      "duracao": 16,
+      "tags": [
+        "SQL",
+        "PL/SQL"
+      ]
+    },
+    {
+      "descricao": "Curso completo de Desenvolvimento Web",
+      "plataforma": "Udemy",
+      "duracao": 34,
+      "tags": [
+        "HTML",
+        "CSS",
+        "Responsividade",
+        "JavaScript",
+        "JQuery",
+        "PHP",
+        "MySQL"
+      ]
+    },
+    {
+      "descricao": "The Full Stack Web Development",
+      "plataforma": "Udemy",
+      "duracao": 33,
+      "tags": [
+        "HTML",
+        "CSS",
+        "Responsividade",
+        "JavaScript",
+        "JQuery",
+        "PHP",
+        "MySQL",
+        "NodeJS",
+        "Angular",
+        "Ruby on Rails",
+        "MeteorJS",
+        "MongoDB",
+        "CouchDB"
+      ]
+    }
+  ]
+}
