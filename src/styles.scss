@@ -1,2 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~@angular/material/_theming.scss';
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+@include mat-core();
+
+body {
+  font-family: Roboto;
+  margin: 0px;
+}
+
+.flex {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

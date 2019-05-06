@@ -1,10 +1,10 @@
 <div class="flex">
   <h5>{{totalEstudo}} horas de estudo</h5>
 
-    <div class="barra flex" *ngFor="let tag of Tags" >
-        <div class="barra fill" [ngStyle]="{'width': ((tag.time / totalEstudo)*100) +'%'}">
-          <div class="bold tag">{{tag.tag}}</div>
-        </div>
-        <span>{{ (tag.time / totalEstudo) | percent }}</span>
-    </div>
+  <div class="barra flex" *ngFor="let tag of Tags" >
+      <div [@fillAnimation]="" class="barra fill" [ngStyle]="{'width': ((tag.time / totalEstudo)*100) +'%'}">
+        <div class="bold tag">{{tag.tag}}</div>
+      </div>
+      <span>{{ (tag.time / totalEstudo) | percent }}</span>
+  </div>
 </div>

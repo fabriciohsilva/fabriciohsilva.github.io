@@ -1,10 +1,13 @@
 <section id="contact">
 <div>
-  <div class="borda container">
-    Para obter meu CV Clique Aqui! < Link pro PDF do CV >
-  </div>
-  <div class="borda container">
-    Outras Mídias Sociais e contatos
+  <div class="footer">
+      <button mat-raised-button color="primary" (click)="openExternal('linkedin')">
+        <i mat-card-avatar class="material-icons"></i>  Linkedin
+      </button>
+      <button mat-raised-button color="primary" (click)="openExternal('github')">Github</button>
+      <button mat-raised-button color="primary" (click)="openExternal('email')">Email </button>
+      <button mat-raised-button color="primary" (click)="openExternal('cv')">CV</button>
+      <button mat-raised-button color="primary" (click)="openExternal('sourcerer')">Programming Statistics</button>
   </div>
 </div>
 </section>
