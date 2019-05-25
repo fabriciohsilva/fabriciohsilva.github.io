@@ -8,9 +8,11 @@
     <button mat-raised-button color="primary" class="col-xs-2" (click)="showItens('bck')">Back-end</button>
   </div>
 
-  <div class="projects">
-    <div class="borda">
-        <mat-card [@projectCardAnimation]="" class="card col-xs-12 col-sm-8 col-md-6 col-lg-4" *ngFor="let project of showRepos | slice:0:10 ; index as i">
+    <div class="projects">
+        <mat-card
+          [@projectCardAnimation]=""
+          class="card col-xs-12 col-sm-12 col-md-6 col-lg-3"
+          *ngFor="let project of showRepos | slice:0:6 ; index as i">
             <mat-card-header>
               <mat-card-title>{{ project.name }}</mat-card-title>
             </mat-card-header>
@@ -26,7 +28,6 @@
             </mat-card-actions>
           </mat-card>
     </div>
-  </div>
-  <button class="lookmore" mat-raised-button color="primary" (click)="showGitHub()">Veja mais</button>
+  <button mat-raised-button color="primary" (click)="showGitHub()">Veja mais -></button>
 
 </section >
