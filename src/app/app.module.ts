@@ -5,12 +5,12 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './structure/header/header.component';
 import { FooterComponent } from './structure/footer/footer.component';
 import { ContentComponent } from './structure/content/content.component';
-import { AboutMeComponent } from './sections/about-me/about-me.component';
 import { SkillsComponent } from './sections/skills/skills.component';
-import { ExperienceComponent } from './sections/experience/experience.component';
 import { ProjectsComponent } from './sections/projects/projects.component';
+import { ExperienceComponent } from './sections/experience/experience.component';
+import { AboutMeComponent } from './sections/about-me/about-me.component';
 import { MeComponent } from './elements/me/me.component';
-import { NavbarComponent } from './elements/navbar/navbar.component';
+import { NavBarComponent } from './elements/nav-bar/nav-bar.component';
 import { MenuItemComponent } from './elements/menu-item/menu-item.component';
 
 @NgModule({
@@ -19,12 +19,12 @@ import { MenuItemComponent } from './elements/menu-item/menu-item.component';
     HeaderComponent,
     FooterComponent,
     ContentComponent,
-    AboutMeComponent,
     SkillsComponent,
-    ExperienceComponent,
     ProjectsComponent,
+    ExperienceComponent,
+    AboutMeComponent,
     MeComponent,
-    NavbarComponent,
+    NavBarComponent,
     MenuItemComponent
   ],
   imports: [

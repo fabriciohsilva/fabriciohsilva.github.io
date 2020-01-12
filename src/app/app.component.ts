@@ -3,10 +3,11 @@ import { Title } from '@angular/platform-browser';
 
 import Resume from '../resume.json';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title = 'fabriciohsilva.github.io';
@@ -23,6 +24,4 @@ export class AppComponent {
   ngOnInit() {
     this.setTitle();
   }
-
-
 }

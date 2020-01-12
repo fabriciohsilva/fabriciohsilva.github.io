@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-menu-item',
-  templateUrl: './menu-item.component.html',
-  styleUrls: ['./menu-item.component.css']
+  // templateUrl: './menu-item.component.html',
+  template: `<a href="{{ href }}">{{ name }}</a>`,
+  styleUrls: ['./menu-item.component.scss']
 })
-export class MenuItemComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+export class MenuItemComponent {
+  @Input('href')
+  href: string;
+  @Input('name')
+  name: string;
 
 }

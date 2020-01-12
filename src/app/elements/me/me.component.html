@@ -1,19 +1,23 @@
-<section className="hero is-dark is-fullheight has-bg-image">
-    <div className="hero-head">
-        
+<section class="me bg-image">
+    <div class="me-head">
+        <app-nav-bar></app-nav-bar>
     </div>
-    <div className="hero-body">
-        <div className="container">
-            <p className="subtitle is-5 has-text-weight-light">I'm a</p>
-            <h1 className="title">{{Resume.basics.label}}</h1>
-            <h2 className="subtitle">{{Resume.basics.location.region}}, {{Resume.basics.location.country}}</h2>
+    <div class="me-body">
+        <div class="container">
+            <h4>{{Resume.basics.label}}</h4>
+            <h5>{{Resume.basics.location.region}}, {{Resume.basics.location.country}}</h5>
         </div>
     </div>
-    <div className="hero-foot" >
-        <div className="columns is-mobile">
-            <div className="column is-4"></div>
-            
-            <div className="column is-4"></div>
+    <div class="me-footer">
+        <!-- <div class="col s2 m2 l2 xl2"></div> -->
+        <div class="profiles" *ngFor="let item of Resume.basics.profiles">
+            <a href={{item.url}} target="blank" title={{item.network}}>
+                <span>
+                    <i class={{item.x_icon}}></i>
+                </span>
+            </a>
         </div>
+        <!-- <div class="col s2 m2 l2 xl2"></div> -->
     </div>
+
 </section>

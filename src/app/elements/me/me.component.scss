@@ -1,0 +1,42 @@
+.me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.bg-image {
+    background-image: url(../../../assets/images/cover2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+// .me-body {
+//     min-height: ;
+// }
+
+.me-footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.me-footer-adjust {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.me-footer a {
+    color: #ffffff;
+}
+
+.profiles {
+    padding-left: 64px;
+}
+
+.profiles:first-child {
+    padding-left: 0px;
+}

@@ -5,15 +5,15 @@ import resume from '../../../resume.json';
 @Component({
   selector: 'app-me',
   templateUrl: './me.component.html',
-  styleUrls: ['./me.component.css']
+  styleUrls: ['./me.component.scss']
 })
 export class MeComponent implements OnInit {
-  Resume: string;
+  Resume: any;
+
   constructor() { }
 
   ngOnInit() {
-    this.Resume = resume
-    console.log(this.Resume);
+    this.Resume = resume;
   }
 
 }

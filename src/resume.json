@@ -15,13 +15,19 @@
         "network": "LinkedIn",
         "username": "fabriciohsilva",
         "url": "https://www.linkedin.com/in/fabriciohsilva",
-        "x_icon": "fab fa-2x fa-linkedin"
+        "x_icon": "fab fa-3x fa-linkedin"
       },
       {
         "network": "GitHub",
         "username": "fabriciohsilva",
         "url": "https://github.com/fabriciohsilva",
-        "x_icon": "fab fa-2x fa-github"
+        "x_icon": "fab fa-3x fab fa-github-square"
+      },
+      {
+        "network": "E-mail",
+        "username": "fabriciohsilva@live.com",
+        "url": "mailto:fabriciohsilva@live.com",
+        "x_icon": "fas fa-3x fa-envelope"
       }
     ]
   },
