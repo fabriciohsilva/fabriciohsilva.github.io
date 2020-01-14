@@ -1,0 +1,38 @@
+.fit {
+    width: fit-content;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3F51B5;
+    color: #ffffff;
+    padding: 40px 20px;
+
+    .about-me-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+
+        .about-me-profile-img {
+            background-image: url(../../../assets/images/cover1.png);
+            height: 180px;
+            width: 180px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .about-me-greeting {
+            font-weight: 700;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .about-me-sumary {
+            font-size: 1.25rem;
+        }
+    }
+}
