@@ -13,7 +13,7 @@
         <div class="profiles" *ngFor="let item of Resume.basics.profiles">
             <a href={{item.url}} target="blank" title={{item.network}}>
                 <span>
-                    <i class={{item.x_icon}}></i>
+                    <ion-icon name="{{item.icon}}"></ion-icon>
                 </span>
             </a>
         </div>

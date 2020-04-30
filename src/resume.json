@@ -15,19 +15,25 @@
         "network": "LinkedIn",
         "username": "fabriciohsilva",
         "url": "https://www.linkedin.com/in/fabriciohsilva",
-        "x_icon": "fab fa-3x fa-linkedin"
+        "icon": "logo-linkedin"
       },
       {
         "network": "GitHub",
         "username": "fabriciohsilva",
         "url": "https://github.com/fabriciohsilva",
-        "x_icon": "fab fa-3x fab fa-github-square"
+        "icon": "logo-github"
+      },
+      {
+        "network": "Sourcerer",
+        "username": "fabriciohsilva",
+        "url": "https://sourcerer.io/fabriciohsilva",
+        "icon": "pie-chart-outline"
       },
       {
         "network": "E-mail",
         "username": "fabriciohsilva@live.com",
         "url": "mailto:fabriciohsilva@live.com",
-        "x_icon": "fas fa-3x fa-envelope"
+        "icon": "mail-outline"
       }
     ]
   },
