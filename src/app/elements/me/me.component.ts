@@ -1,6 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-
-import resume from '../../../resume.json';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-me',
@@ -8,12 +6,11 @@ import resume from '../../../resume.json';
   styleUrls: ['./me.component.scss']
 })
 export class MeComponent implements OnInit {
-  Resume: any;
+@Input() Resume;
 
   constructor() { }
 
   ngOnInit() {
-    this.Resume = resume;
   }
 
 }

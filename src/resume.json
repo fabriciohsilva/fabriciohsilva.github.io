@@ -198,5 +198,19 @@
       "name": "Live in the now",
       "x_icon": "fa-brain"
     }
-  ]
+  ],
+  "menus": [
+    {
+        "name": "About Me",
+        "href": "#aboutMe"
+    },
+    {
+        "name": "Skills",
+        "href": "#skills"
+    },
+    {
+        "name": "Projects",
+        "href": "#projects"
+    }        
+]
 }

@@ -1,10 +1,11 @@
 <nav>
-    <div class="container">
-        <div class="nav-wrapper">
+    <mat-toolbar color="primary">
+        <mat-toolbar-row>
             <a href="/" class="brand-logo">{{ Resume.basics.name }}</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li *ngFor="let item of MenuItens"><a href="{{ item.href }}">{{ item.name }}</a></li>
-            </ul>
-        </div>
-    </div>
+                
+            <div class="menu-itens">
+                <span *ngFor="let item of MenuItens"><a href="{{ item.href }}">{{ item.name }}</a></span>
+            </div>    
+        </mat-toolbar-row>
+    </mat-toolbar>
 </nav>

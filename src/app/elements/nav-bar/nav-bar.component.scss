@@ -3,9 +3,29 @@ nav {
     background-color: transparent;
 }
 
-// nav a {
-//     color: #000000 !important;
-// }
+mat-toolbar {
+    position: fixed;
+    top: 0
+}
+
+mat-toolbar-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-itens {
+    display: flex;
+    flex-direction: row;
+
+    span {
+        padding-right: 16px;
+    }
+
+    span:last-of-type {
+        padding-right: 0px;
+    }
+}
 
 .brand-logo {
     font-weight: 600;

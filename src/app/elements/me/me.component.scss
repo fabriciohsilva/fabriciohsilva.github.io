@@ -5,12 +5,23 @@
     color: #ffffff;
 }
 
+.bg-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(169,0,255,.55);
+    z-index: 0;
+}
+
 .bg-image {
     background-image: url(../../../assets/images/cover2.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     min-height: 100vh;
+    z-index: -1;
 }
 
 // .me-body {

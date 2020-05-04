@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
-import Resume from '../resume.json';
+import resume from '../resume.json';
 
 
 @Component({
@@ -10,18 +10,20 @@ import Resume from '../resume.json';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  Resume: any;
   title = 'fabriciohsilva.github.io';
 
   public constructor(private titleService: Title ) { }
   
   public setTitle() {
-    const pageTitle = Resume.basics.name + ' | ' + 
-                      Resume.basics.label + ' | ' + 
-                      Resume.basics.location.region + ', ' + Resume.basics.location.country;
+    const pageTitle = this.Resume.basics.name + ' | ' + 
+    this.Resume.basics.label + ' | ' + 
+    this.Resume.basics.location.region + ', ' + this.Resume.basics.location.country;
     this.titleService.setTitle( pageTitle );
   }
 
   ngOnInit() {
+    this.Resume = resume;
     this.setTitle();
   }
 }

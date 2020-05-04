@@ -12,6 +12,8 @@ import { AboutMeComponent } from './sections/about-me/about-me.component';
 import { MeComponent } from './elements/me/me.component';
 import { NavBarComponent } from './elements/nav-bar/nav-bar.component';
 import { MenuItemComponent } from './elements/menu-item/menu-item.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { MenuItemComponent } from './elements/menu-item/menu-item.component';
     MenuItemComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatToolbarModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
